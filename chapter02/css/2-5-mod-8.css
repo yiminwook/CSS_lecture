@@ -46,7 +46,7 @@ body {
   font-weight: bold;
 }
 
-.bl_media_body>span {
+.bl_media_body > span {
   color: #555;
   font-size: 14px;
 }
@@ -67,11 +67,12 @@ body {
   margin-right: 0;
 }
 
-.bl_media_body__rev {
-  margin-right: 3.33333%;
-}
-
 .bl_media_imageWrapper__bordered {
   padding: 2px;
   border: 1px solid #aaa;
 }
+
+.bl_media_body__rev {
+  margin-right: 3.33333%;
+}
+

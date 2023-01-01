@@ -16,33 +16,57 @@ body {
 }
 
 /* ===============모듈=============== */
-.bl_module {
+.bl_media {
   /* 모듈에 대한 설정 */
   display: flex;
   align-items: center;
   font-size: 16px;
   line-height: 1.5;
 }
-.bl_module_imageWrapper {
+
+.bl_media__rev {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.bl_media_imageWrapper {
   flex: 1 1 25%;
   margin-right: 3.33333%;
 }
-.bl_module_imageWrapper img {
+
+.bl_media__rev .bl_media_imageWrapper {
+  margin-right: 0;
+}
+
+.bl_media_imageWrapper__bordered {
+  padding: 2px;
+  border: 1px solid #aaa;
+}
+
+.bl_media_imageWrapper img {
   width: 100%;
   vertical-align: top;
 }
-.bl_module_body {
+
+.bl_media_body {
   flex: 1 1 68.33333%;
 }
-.bl_module_title { 
+
+.bl_media__rev .bl_media_body {
+  margin-right: 3.33333%;
+}
+
+.bl_media_title { 
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
 }
-.bl_module_body > span {
+
+.bl_media_body > span {
   color: #555;
   font-size: 14px; 
 }
+
 .subTitle {
   margin-top: 10px;
   margin-bottom: 10px;
